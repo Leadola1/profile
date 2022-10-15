@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app,.root{
+  padding: 0;
+  margin: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  font-family:  'Inter', sans-serif;
+  margin:0;
+  background-color: #23252C;
   color: white;
+
+}
+.main{
+  max-width: 317px;
+  margin: 0 auto;
+  background-color: #1A1B21;
+  padding-bottom: 20px;
+border-color:white;
+}
+.Info-main-div{
+  text-align: center;
+  margin-top: 30px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
-.App-link {
-  color: #61dafb;
+.Info-image{
+  width:100%;
+  border-radius:10px 10px 0px 0px;
+
+  padding:0;
+  margin: 0;
+  
+}
+.Info-h1{
+  font-size: 25px;
+  line-height: 30.26px;
+  font-weight: 700;
+  padding:0;
+  margin: 21px 0 8px 0;
+}
+.Info-p{
+  font-size: 12.8px;
+  color:#F3BF99;
+  ;
+  line-height: 0px;
+  font-weight: 400;
+  padding:0;
+  margin: 0 0 10px 0;
+}
+.Info-p2{
+  font-size: 10.24px;
+  line-height: 15.36pxpx;
+  font-weight: 400;
+  padding:0;
+  margin: 18px 0 0px 0;
+  color:#f5f5f5;
+}
+button{
+  margin-top:15px;
+  padding:9px 20px 9px 37px;
+  font-size: 14px;
+  border:0;
+  height:34px;
+  margin-left: 9px;
+  margin-right: 9px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mail-button-icon{
+  position: absolute;
+  left: 42.5%;
+  bottom: 20%;
+  
+}
+.vector-button-icon{
+  position: absolute;
+  left: 51.9%;
+  bottom: 20.2%;
+  
+}
+.email{
+  padding:9px 30px 9px 45px;
+  color: #374151;
+}
+.linkedin{
+  background-color:#5093E2;
+  color:#ffff;
+ 
+
+  
+}
+h2{
+  margin: 0;
+  padding: 0;
+  font-size:16px ;
+  color:#f5f5f5;
+}
+.about, .interest{
+  width:75%;
+  margin:0, auto;
+  margin-left: 38px;
+  text-align: justify;
+}
+.interest-p,.about-p{
+  font-size: 10.24px;
+  line-height: 15.36px;
+  margin:0;
+  color: #dcdcdc;
+}
+.foot{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: #161619;
+  margin-bottom:30px ;
+  border-radius:0 0 10px 10px;
+ 
+}
+.footy{
+  margin-top:20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
